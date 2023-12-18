@@ -48,7 +48,9 @@ git commit -m "Your descriptive commit message here"
 Push your changes to the GitHub repository:
 
 ```bash
-git push origin master
+git remote add origin https://github.com/your-username/your-repo.git
+git branch -M main
+git push -u origin main
 ```
 
 This assumes you are working on the "master" branch. If you are on a different branch, replace "master" with your branch name.
